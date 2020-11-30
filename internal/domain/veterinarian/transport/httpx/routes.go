@@ -1,8 +1,8 @@
 package httpx
 
 import (
-	"github.com/schigh-ntwrk/entc-poc/internal/httpx"
-	"github.com/schigh-ntwrk/entc-poc/internal/services"
+	"github.com/schigh-ntwrk/ent-poc/internal/httpx"
+	"github.com/schigh-ntwrk/ent-poc/internal/services"
 )
 
 func Routes(svc services.VeterinarianService) []httpx.Route {

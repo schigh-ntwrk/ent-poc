@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/config"
+	"github.com/schigh-ntwrk/ent-poc/internal/config"
 )
 
 type Option func(*Server)

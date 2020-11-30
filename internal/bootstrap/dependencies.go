@@ -6,16 +6,16 @@ import (
 
 	_ "github.com/go-sql-driver/mysql" // needed for mysql driver
 
-	"github.com/schigh-ntwrk/entc-poc/internal/config"
-	appointmentHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/appointment/transport/httpx"
-	clinicHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/clinic/transport/httpx"
-	customerHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/customer/transport/httpx"
-	petHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/pet/transport/httpx"
-	userHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/user/transport/httpx"
-	veterinarianHTTP "github.com/schigh-ntwrk/entc-poc/internal/domain/veterinarian/transport/httpx"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent"
-	"github.com/schigh-ntwrk/entc-poc/internal/httpx"
-	"github.com/schigh-ntwrk/entc-poc/internal/services"
+	"github.com/schigh-ntwrk/ent-poc/internal/config"
+	appointmentHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/appointment/transport/httpx"
+	clinicHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/clinic/transport/httpx"
+	customerHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/customer/transport/httpx"
+	petHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/pet/transport/httpx"
+	userHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/user/transport/httpx"
+	veterinarianHTTP "github.com/schigh-ntwrk/ent-poc/internal/domain/veterinarian/transport/httpx"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent"
+	"github.com/schigh-ntwrk/ent-poc/internal/httpx"
+	"github.com/schigh-ntwrk/ent-poc/internal/services"
 )
 
 // Dependencies is a bootstrapping artifact that aggregates all dependent

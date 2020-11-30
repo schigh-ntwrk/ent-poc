@@ -6,7 +6,7 @@ import (
 	"github.com/facebook/ent/schema/field"
 	"github.com/facebook/ent/schema/index"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/schema/mixin"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/schema/mixin"
 )
 
 // Appointment holds the schema definition for the Appointment entity.

@@ -12,7 +12,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/bootstrap"
+	"github.com/schigh-ntwrk/ent-poc/internal/bootstrap"
 )
 
 // create top-level application activity logger

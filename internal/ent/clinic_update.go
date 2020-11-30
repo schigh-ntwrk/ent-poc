@@ -11,9 +11,9 @@ import (
 	"github.com/facebook/ent/dialect/sql/sqlgraph"
 	"github.com/facebook/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/clinic"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/predicate"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/veterinarian"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/clinic"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/predicate"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/veterinarian"
 )
 
 // ClinicUpdate is the builder for updating Clinic entities.

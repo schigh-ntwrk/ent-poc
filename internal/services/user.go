@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/domain/user"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent"
+	"github.com/schigh-ntwrk/ent-poc/internal/domain/user"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent"
 )
 
 type UserService interface {

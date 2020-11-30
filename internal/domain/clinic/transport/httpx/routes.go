@@ -9,9 +9,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/ent"
-	"github.com/schigh-ntwrk/entc-poc/internal/httpx"
-	"github.com/schigh-ntwrk/entc-poc/internal/services"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent"
+	"github.com/schigh-ntwrk/ent-poc/internal/httpx"
+	"github.com/schigh-ntwrk/ent-poc/internal/services"
 )
 
 func Routes(svc services.ClinicService) []httpx.Route {

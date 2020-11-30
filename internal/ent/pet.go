@@ -9,8 +9,8 @@ import (
 
 	"github.com/facebook/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/customer"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/pet"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/customer"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/pet"
 )
 
 // Pet is the model entity for the Pet schema.

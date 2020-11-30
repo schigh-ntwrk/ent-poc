@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/wire"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/config"
-	"github.com/schigh-ntwrk/entc-poc/internal/services"
+	"github.com/schigh-ntwrk/ent-poc/internal/config"
+	"github.com/schigh-ntwrk/ent-poc/internal/services"
 )
 
 func Up(ctx context.Context) (Dependencies, error) {

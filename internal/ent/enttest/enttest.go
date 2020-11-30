@@ -5,9 +5,9 @@ package enttest
 import (
 	"context"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/ent"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent"
 	// required by schema hooks.
-	_ "github.com/schigh-ntwrk/entc-poc/internal/ent/runtime"
+	_ "github.com/schigh-ntwrk/ent-poc/internal/ent/runtime"
 
 	"github.com/facebook/ent/dialect/sql/schema"
 )

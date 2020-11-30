@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/appointment"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/clinic"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/customer"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/pet"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/schema"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/user"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/veterinarian"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/appointment"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/clinic"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/customer"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/pet"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/schema"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/user"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/veterinarian"
 )
 
 // The init function reads all schema descriptors with runtime code

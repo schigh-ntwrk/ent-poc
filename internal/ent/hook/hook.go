@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/ent"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent"
 )
 
 // The AppointmentFunc type is an adapter to allow the use of ordinary

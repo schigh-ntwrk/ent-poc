@@ -9,9 +9,9 @@ import (
 
 	"github.com/facebook/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/appointment"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/pet"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/veterinarian"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/appointment"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/pet"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/veterinarian"
 )
 
 // Appointment is the model entity for the Appointment schema.

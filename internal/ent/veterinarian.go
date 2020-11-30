@@ -9,9 +9,9 @@ import (
 
 	"github.com/facebook/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/clinic"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/user"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/veterinarian"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/clinic"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/user"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/veterinarian"
 )
 
 // Veterinarian is the model entity for the Veterinarian schema.

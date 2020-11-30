@@ -1,4 +1,4 @@
-module github.com/schigh-ntwrk/entc-poc
+module github.com/schigh-ntwrk/ent-poc
 
 go 1.15
 

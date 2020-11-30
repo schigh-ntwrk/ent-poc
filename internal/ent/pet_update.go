@@ -11,10 +11,10 @@ import (
 	"github.com/facebook/ent/dialect/sql/sqlgraph"
 	"github.com/facebook/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/appointment"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/customer"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/pet"
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/predicate"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/appointment"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/customer"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/pet"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/predicate"
 )
 
 // PetUpdate is the builder for updating Pet entities.

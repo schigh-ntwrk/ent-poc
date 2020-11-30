@@ -5,7 +5,7 @@ import (
 	"github.com/facebook/ent/schema/edge"
 	"github.com/facebook/ent/schema/field"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/ent/schema/mixin"
+	"github.com/schigh-ntwrk/ent-poc/internal/ent/schema/mixin"
 )
 
 // Clinic holds the schema definition for the Clinic entity.

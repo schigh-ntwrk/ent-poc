@@ -8,8 +8,8 @@ package bootstrap
 import (
 	"context"
 
-	"github.com/schigh-ntwrk/entc-poc/internal/config"
-	"github.com/schigh-ntwrk/entc-poc/internal/services"
+	"github.com/schigh-ntwrk/ent-poc/internal/config"
+	"github.com/schigh-ntwrk/ent-poc/internal/services"
 
 	_ "github.com/go-sql-driver/mysql"
 )
