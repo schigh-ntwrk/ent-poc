@@ -1,0 +1,5 @@
+.idea
+.vscode
+.github
+_tools
+*.env

@@ -1,0 +1,26 @@
+### POST Springfield Animal Hospital
+POST http://localhost:8080/clinic
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Springfield Animal Hospital",
+  "address": "123 Fake Street Springfield USA 12345",
+  "web_url": "www.springfield-puppers.org",
+  "phone": "555-555-1212"
+}
+
+### POST Shelbyville Animal Hospital
+POST http://localhost:8080/clinic
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Shelbyville Animal Hospital",
+  "address": "123 Some Street Shelbyville USA 13579",
+  "web_url": "www.shelbyville-puppers.org",
+  "phone": "555-555-2121"
+}
+
+### GET Springfield Animal Hospital
+GET http://localhost:8080/clinic/
+Content-Type: application/json; charset=utf-8
+Cache-Control: no-cache

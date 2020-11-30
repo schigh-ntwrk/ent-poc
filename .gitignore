@@ -1,0 +1,11 @@
+# ide and env cruft
+.idea
+.vscode
+sandbox
+*.plaintext
+*.env
+
+# artifacts
+_bin
+_build
+_coverage
